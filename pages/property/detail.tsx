@@ -1,17 +1,16 @@
 import { Container, Stack } from "@mui/material";
 import { green } from "@mui/material/colors";
 import withLayoutBasic from "./libs/components/layout/LayuotBasic";
-import { NextPage } from "next";
 
-const PropertyList: NextPage = () => {
+const PropertyDetail = () => {
     console.log("PROPERTYLIST COMPONNENT - PAGES ROUTER");
     return (
     <>
-        
-        <Container> PROPERTY LIST</Container>
-      
+       
+        <Container> PROPERTY DETAIL</Container>
+       
     </>
     );
 };
 
-export default withLayoutBasic(PropertyList);
+export default withLayoutBasic( PropertyDetail);
