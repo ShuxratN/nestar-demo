@@ -1,6 +1,7 @@
+import withLayoutBasic from "@/libs/components/layout/LayuotBasic";
 import { NextPage } from "next";
 import { useState } from "react";
-import withLayoutBasic from "../property/libs/components/layout/LayuotBasic";
+
 
 const Community: NextPage = () => {
     console.log("COMMUNITY COMPONNENT - PAGES ROUTER");

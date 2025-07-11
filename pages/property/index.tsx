@@ -1,6 +1,7 @@
+import withLayoutBasic from "@/libs/components/layout/LayuotBasic";
 import { Container, Stack } from "@mui/material";
 import { green } from "@mui/material/colors";
-import withLayoutBasic from "./libs/components/layout/LayuotBasic";
+
 import { NextPage } from "next";
 
 const PropertyList: NextPage = () => {
