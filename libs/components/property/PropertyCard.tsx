@@ -10,7 +10,7 @@ const PropertyCard = () => {
 
   return (
     <Stack>
-      <Stack className="card-config">
+      <Stack component="div" className="card-config">
         <Stack className="top">
           <Link
             href={{
@@ -40,8 +40,9 @@ const PropertyCard = () => {
                 <Typography>Kingstone apartments</Typography>
               </Link>
             </Stack>
-            <Stack className="address"></Stack>
+            <Stack className="address">
             <Typography>Busan, City Center 200 - 5</Typography>
+            </Stack>
           </Stack>
         </Stack>
         <Stack className="options">
@@ -55,7 +56,7 @@ const PropertyCard = () => {
           </Stack>
           <Stack className="option">
             <img src="/img/icons/expand.svg" alt="" />{" "}
-            <Typography>170 m2</Typography>
+            <Typography>170 m²</Typography>
           </Stack>
         </Stack>
         <Stack className="divider"></Stack>

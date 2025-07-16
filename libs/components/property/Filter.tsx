@@ -12,7 +12,7 @@ import {
   Tooltip,
   IconButton,
 } from "@mui/material";
-import { propertySquare } from "../../config";
+import { propertySquare } from "../config";
 import RefreshIcon from "@mui/icons-material/Refresh";
 
 const Filter = () => {

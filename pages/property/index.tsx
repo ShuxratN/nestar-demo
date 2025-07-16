@@ -8,7 +8,7 @@ import { useState } from "react";
 import Filter from "@/libs/components/property/Filter";
 
 const PropertyList: NextPage = () => {
-    const [properties, setTopProperties] = useState<number[]>([1,2,3,4,5,6,7]);
+    const [properties, setTopProperties] = useState<number[]>([1,2,3,4,5,6,]);
     
     return (
         <div id={"property-list-page"} style={{ position: "relative"}}>
